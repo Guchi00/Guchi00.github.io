@@ -1,0 +1,359 @@
+body,
+html {
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first-div {
+    height: 800px;
+    width: 100%;
+    /*border: solid 1px black;*/
+    
+}
+
+.heading {
+    height: 80px;
+    width: 100%;
+    /*border: solid 1px black;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.headlines {
+    height: 45px;
+    width: 30%;
+    font-size: 15px;
+    /*border: solid 1px black;*/
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ugochi {
+    height: 45px;
+    width: 70%;
+    font-size: 30px;
+    /*border: solid 1px black;*/
+    padding-left: 50px;
+    color: purple;
+}
+
+.about-me {
+    height: 500px;
+    width: 100%;
+    /*border: solid 1px black;*/
+}
+
+.tranway2 {
+    height: 500px;
+    width: 100%;
+    /*border: solid 1px black;*/      
+    background-image: url(stone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.i-am{
+    /*border: solid 1px black;*/
+    font-size: 30px;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.name {
+    /*border: solid 1px black;*/
+    font-size: 30px;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.surname {
+    /*border: solid 1px black;*/
+    font-size: 30px;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.software-dev {
+    /*border: solid 1px black;*/
+    font-size: 12px;
+    color: purple;
+    font-family: fantasy;
+    margin-top: 10px;
+}
+
+.theword-aboutme {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    /*border: solid 1px black;*/
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pair-divs {
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    /*border: solid 1px black;*/
+    display: flex;
+}
+
+.my-self-div {
+    height: 400px;
+    width: 80%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px black;*/
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.my-self1 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px black;*/
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.my-self2 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px black;*/
+    font-size: 20px;
+    color: grey;
+    padding-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.mypicture {
+    height: 450px;
+    width: 20%;
+    background-color: white;
+    /*border: solid 1px black;*/
+    background-image: url(glasses.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-media {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    /*border: solid 1px black;*/
+}
+
+.skills {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px black;*/
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding-top: 35px;
+}
+
+.htmls-div {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    border: solid 1px purple;
+    text-align: center;
+    display: flex;
+}
+
+.html {
+    height: 50px;
+    width: 16.6%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px purple;*/
+    border-left: solid 1px rgb(250, 248, 248);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.css {
+    height: 50px;
+    width: 16.6%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px purple;*/
+    border-left: solid 1px rgb(250, 248, 248);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.script {
+    height: 50px;
+    width: 16.7%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px purple;*/
+    border-left: solid 1px rgb(250, 248, 248);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.creative {
+    height: 50px;
+    width: 16.7%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px purple;*/
+    border-left: solid 1px rgb(250, 248, 248);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.comm {
+    height: 50px;
+    width: 16.7%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px purple;*/
+    border-left: solid 1px rgb(250, 248, 248);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.react {
+    height: 50px;
+    width: 16.7%;
+    background-color: rgb(250, 248, 248);
+    /*border: solid 1px purple;*/
+    border-left: solid 1px rgb(250, 248, 248);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.portfolio {
+    height: 100px;
+    width: 100%;
+    /*border: solid 1px purple;*/
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-apps{
+    height: 400px;
+    width: 100%;
+    /*border: solid 1px purple;*/
+    display: flex;
+}
+
+.apps {
+    height: 400px;
+    width: 33.3%;
+    /*border: solid 1px purple;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sony {
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+    /*border: solid 1px purple;*/
+}
+
+.samples {
+    height: 50px;
+    width: 250px;
+    /*border: solid 1px purple;*/
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interest-text {
+    height: 100px;
+    width: 100%;
+    /*border: solid 1px purple;*/
+    background-color: rgb(250, 248, 248);
+    border-top: solid 3px whitesmoke;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interestss {
+    height: 400px;
+    width: 100%;
+    /*border: solid 1px purple;*/
+    display: flex;
+}
+
+.interest {
+    height: 400px;
+    width: 33.3%;
+    /*border: solid 1px purple;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.volu-pixs {
+    height: 350px;
+    width: 400px;
+    /*border: solid 1px purple;*/
+    border-radius: 5px;
+}
+
+.sampless {
+    height: 50px;
+    width: 250px;
+    /*border: solid 1px purple;*/
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    border: solid 1px white;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
